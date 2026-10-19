@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WanderWay - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark site-navbar py-3" aria-label="Main navigation">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">WanderWay</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <div class="navbar-nav ms-auto gap-lg-2 pt-3 pt-lg-0">
+                <a class="nav-link active px-lg-3 mb-1 mb-lg-0" href="index.html" aria-current="page">Home</a>
+                <a class="nav-link px-lg-3 mb-1 mb-lg-0" href="destinations.html">Destinations</a>
+                <a class="nav-link px-lg-3 mb-1 mb-lg-0" href="guides.html">Guides</a>
+                <a class="nav-link px-lg-3 mb-1 mb-lg-0" href="tips.html">Tips</a>
+                <a class="nav-link px-lg-3 mb-1 mb-lg-0" href="about.html">About</a>
+                <a class="nav-link px-lg-3 mb-1 mb-lg-0" href="contact.html">Contact</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<header id="main-header" class="hero py-5">
+    <div class="container">
+        <div class="hero-content mx-auto text-center">
+            <span class="eyebrow mb-3">EXPLORE THE WORLD</span>
+            <h1 class="mb-3">Travel simply. Discover more.</h1>
+            <p class="mx-auto">Simple travel ideas, useful guides and inspiring destinations for your next adventure.</p>
+            <a class="btn btn-primary btn-lg mt-3" href="destinations.html">Explore Destinations</a>
+        </div>
+    </div>
+</header>
+<main class="container">
+    <section class="py-5">
+        <h2 class="mb-3">Why Travel?</h2>
+        <p class="mb-4">Travel gives us an opportunity to discover new places, meet people and learn about different cultures.</p>
+        <div class="media-card-grid">
+            <article class="travel-card">
+                <img src="images/mountains.webp" alt="Mountain landscape">
+                <div class="p-3"><h3 class="mb-0">Adventure</h3><p class="mb-0">Discover mountains, beaches and exciting outdoor activities.</p></div>
+            </article>
+            <article class="travel-card">
+                <img src="images/culture.jpeg" alt="Modern city skyline">
+                <div class="p-3"><h3 class="mb-0">Culture</h3><p class="mb-0">Visit famous cities and learn about local traditions.</p></div>
+            </article>
+            <article class="travel-card">
+                <img src="images/beach.webp" alt="Tropical beach">
+                <div class="p-3"><h3 class="mb-0">Relaxation</h3><p class="mb-0">Find peaceful places where you can rest and enjoy nature.</p></div>
+            </article>
+        </div>
+    </section>
+    <section class="highlight my-4 p-4">
+        <h2 class="mb-3">Our Simple Travel Plan</h2>
+        <ol class="mb-0 ps-4">
+            <li>Choose a destination.</li><li>Plan your budget and route.</li><li>Book accommodation and transport.</li><li>Pack your bags and enjoy the trip.</li>
+        </ol>
+        <div class="btn-group mt-4" role="group" aria-label="Travel resources">
+            <a href="destinations.html" class="btn btn-primary">Destinations</a>
+            <a href="guides.html" class="btn btn-outline-primary">Guides</a>
+            <a href="tips.html" class="btn btn-secondary">Travel Tips</a>
+        </div>
+    </section>
+    <section class="py-5" aria-labelledby="gallery-title">
+        <h2 id="gallery-title" class="text-center mb-2">Travel Gallery</h2>
+        <p class="text-center mb-4">Explore beautiful places and travel experiences around the world.</p>
+        <div id="travelCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#travelCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button><button type="button" data-bs-target="#travelCarousel" data-bs-slide-to="1" class=""  aria-label="Slide 2"></button><button type="button" data-bs-target="#travelCarousel" data-bs-slide-to="2" class=""  aria-label="Slide 3"></button><button type="button" data-bs-target="#travelCarousel" data-bs-slide-to="3" class=""  aria-label="Slide 4"></button><button type="button" data-bs-target="#travelCarousel" data-bs-slide-to="4" class=""  aria-label="Slide 5"></button><button type="button" data-bs-target="#travelCarousel" data-bs-slide-to="5" class=""  aria-label="Slide 6"></button><button type="button" data-bs-target="#travelCarousel" data-bs-slide-to="6" class=""  aria-label="Slide 7"></button><button type="button" data-bs-target="#travelCarousel" data-bs-slide-to="7" class=""  aria-label="Slide 8"></button><button type="button" data-bs-target="#travelCarousel" data-bs-slide-to="8" class=""  aria-label="Slide 9"></button>
+            </div>
+            <div class="carousel-inner rounded-3 shadow-sm">
+                <div class="carousel-item active"><img src="images/mountains.webp" class="d-block w-100 carousel-photo" alt="Mountain landscape"><div class="carousel-caption px-3 py-2"><h3 class="mb-0">Mountains</h3></div></div>
+                <div class="carousel-item"><img src="images/city.jpeg" class="d-block w-100 carousel-photo" alt="Modern city"><div class="carousel-caption px-3 py-2"><h3 class="mb-0">City Adventures</h3></div></div>
+                <div class="carousel-item"><img src="images/beach.webp" class="d-block w-100 carousel-photo" alt="Tropical beach"><div class="carousel-caption px-3 py-2"><h3 class="mb-0">Beach Escape</h3></div></div>
+                <div class="carousel-item"><img src="images/food.jpeg" class="d-block w-100 carousel-photo" alt="Local food"><div class="carousel-caption px-3 py-2"><h3 class="mb-0">Local Food</h3></div></div>
+                <div class="carousel-item"><img src="images/packing.webp" class="d-block w-100 carousel-photo" alt="Travel packing"><div class="carousel-caption px-3 py-2"><h3 class="mb-0">Travel Packing</h3></div></div>
+                <div class="carousel-item"><img src="images/safe.jpg" class="d-block w-100 carousel-photo" alt="Safe city travel"><div class="carousel-caption px-3 py-2"><h3 class="mb-0">Safe Travel</h3></div></div>
+                <div class="carousel-item"><img src="images/travelmap.jpg" class="d-block w-100 carousel-photo" alt="Travel map"><div class="carousel-caption px-3 py-2"><h3 class="mb-0">Plan Your Journey</h3></div></div>
+                <div class="carousel-item"><img src="images/italy.jpg" class="d-block w-100 carousel-photo" alt="Italy"><div class="carousel-caption px-3 py-2"><h3 class="mb-0">Italy</h3></div></div>
+                <div class="carousel-item"><img src="images/japan.webp" class="d-block w-100 carousel-photo" alt="Japan"><div class="carousel-caption px-3 py-2"><h3 class="mb-0">Japan</h3></div></div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#travelCarousel" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#travelCarousel" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+        </div>
+    </section>
+</main>
+<footer class="site-footer mt-5 py-4 text-center">
+    <p class="mb-0">© 2026 WanderWay | Team: Yelubek Bakdaulet, Ismail Bolat</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body></html>
